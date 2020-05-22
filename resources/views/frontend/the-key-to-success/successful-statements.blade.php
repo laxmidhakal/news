@@ -1,4 +1,4 @@
-@extends('frontend.app')
+@extends('frontend.main.app')
 @section('content')
   <div class="container">
     <div class="search-box">

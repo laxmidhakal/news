@@ -46,12 +46,33 @@ Route::get('/verdict/asean/malaysia', 'Frontend\DropdownController@malaysia')->n
 Route::get('/verdict/asean/philippines', 'Frontend\DropdownController@philippines')->name('philippines');
 Route::get('/verdict/asean/singapore', 'Frontend\DropdownController@singapore')->name('singapore');
 
+Route::get('/verdict/supreme-court', 'Frontend\DropdownController@supremeCourt')->name('supreme-court');
+Route::get('/verdict/cambodia/supreme-court/criminal-law', 'Frontend\DropdownController@criminalLaw')->name('criminal-law');
+Route::get('/verdict/cambodia/supreme-court/civil-parties', 'Frontend\DropdownController@civilParties')->name('civil-parties');
+Route::get('/verdict/cambodia/the-court-of-appeals', 'Frontend\DropdownController@courtAppeals')->name('the-court-of-appeals');
+Route::get('/verdict/cambodia/the-court-of-appeals/criminal-law', 'Frontend\DropdownController@appealscriminallaw')->name('the-court-of-appeals-criminal-law');
+Route::get('/verdict/the-court-of-appeals/civil-parties', 'Frontend\DropdownController@appealscivilParties')->name('the-court-of-appeals-civil-parties');
+Route::get('/verdict/trial', 'Frontend\DropdownController@trial')->name('trial');
+Route::get('/verdict/trial', 'Frontend\DropdownController@trial')->name('trial');
+Route::get('/verdict/trial', 'Frontend\DropdownController@trial')->name('trial');
+Route::get('/verdict/cambodia/the-arbitration-council', 'Frontend\DropdownController@theArbitrationCouncil')->name('the-arbitration-council');
+Route::get('/verdict/cambodia/the-khmer-rouge-tribunal', 'Frontend\DropdownController@theKhmerRougeTribunal')->name('the-khmer-rouge-tribunal');
+Route::get('/verdict/cambodia/constitutional-council', 'Frontend\DropdownController@constitutionalCouncil')->name('constitutional-council');
+
+
 Route::get('/verdict/international/international-court-of-justice', 'Frontend\DropdownController@internationalCourtofJustice')->name('international-court-of-justice');
 Route::get('/verdict/international/sea-court', 'Frontend\DropdownController@seaCourt')->name('sea-court');
 Route::get('/verdict/international/united-nations-human-rights-committee', 'Frontend\DropdownController@unitedNationsHumanRightsCommittee')->name('united-nations-human-rights-committee');
 Route::get('/verdict/international/international-criminal-court', 'Frontend\DropdownController@internationalCriminalCourt')->name('international-criminal-court-of-justice');
 Route::get('/verdict/international/canadian-human-rights-tribunal', 'Frontend\DropdownController@canadianHumanRightsTribunal')->name('canadian-human-rights-tribunal');
 Route::get('/verdict/international/bosnia-herzegovina-human-rights-court', 'Frontend\DropdownController@bosniaHerzegovinaHumanRightsCourt')->name('bosnia-herzegovina-human-rights-court');
+
+Route::get('/legal-training/institutes-and-universities', 'Frontend\DropdownController@institutesAndUniversities')->name('institutes-and-universities');
+Route::get('/legal-training/center', 'Frontend\DropdownController@center')->name('center');
+Route::get('/legal-training/short-courses', 'Frontend\DropdownController@shortCourses')->name('short-courses');
+Route::get('/legal-training/information-on-conferences', 'Frontend\DropdownController@informationConferences')->name('information-on-conferences');
+Route::get('/legal-training/video-presentations', 'Frontend\DropdownController@videoPresentations')->name('video-presentations');
+
 
 Route::get('/jobs/jobs-internships', 'Frontend\DropdownController@jobInternships')->name('job-internships');
 Route::get('/jobs/jobs-internships/internship', 'Frontend\DropdownController@jobInternshipsIntern')->name('job-internships');
@@ -67,8 +88,8 @@ Route::get('/book/book-store/history', 'Frontend\DropdownController@history')->n
 Route::get('/book/book-store/general-knowledge', 'Frontend\DropdownController@generalKnowledge')->name('general-knowledge');
 Route::get('/book/book-store/high-school-book', 'Frontend\DropdownController@highSchoolBook')->name('high-school-book');
 
-Route::get('/the-key-to-success/successfull-statements', 'Frontend\DropdownController@successfullStatements')->name('successfull-statements');
-Route::get('/the-key-to-success/successfull-personal-interviews', 'Frontend\DropdownController@successfullPersonalInterviews')->name('successfull-personal-interviews');
+Route::get('/the-key-to-success/successful-statements', 'Frontend\DropdownController@successfullStatements')->name('successfull-statements');
+Route::get('/the-key-to-success/successful-personal-interviews', 'Frontend\DropdownController@successfullPersonalInterviews')->name('successfull-personal-interviews');
 Route::get('/the-key-to-success/personal-profile-success-in-the-legal-field', 'Frontend\DropdownController@personalProfileSuccessintheLegalField')->name('personal-profile-success-in-the-legal-field');
 Route::get('/the-key-to-success/recreate-the-law', 'Frontend\DropdownController@recreateTheLaw')->name('recreate-the-law');
 

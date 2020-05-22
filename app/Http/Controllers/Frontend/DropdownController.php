@@ -83,6 +83,52 @@ class DropdownController extends Controller
         return view('frontend.verdict.asean.singapore');
     }
 
+    public function theArbitrationCouncil()
+    {
+        return view('frontend.verdict.cambodia.the-arbitration-council');
+    }
+
+    public function theKhmerRougeTribunal()
+    {
+        return view('frontend.verdict.cambodia.the-khmer-rouge-tribunal');
+    }
+
+    public function constitutionalCouncil()
+    {
+        return view('frontend.verdict.cambodia.constitutional-council');
+    }
+
+
+    public function supremeCourt()
+    {
+        return view('frontend.verdict.cambodia.singapore');
+    }
+
+    public function criminalLaw()
+    {
+        return view('frontend.verdict.cambodia.supreme-court.criminal-law');
+    }
+
+    public function civilParties()
+    {
+        return view('frontend.verdict.cambodia.supreme-court.civil-parties');
+    }
+
+    public function courtAppeals()
+    {
+        return view('frontend.verdict.cambodia.singapore');
+    }
+
+    public function appealscriminallaw()
+    {
+        return view('frontend.verdict.asean.singapore');
+    }
+
+    public function appealscivilParties()
+    {
+        return view('frontend.verdict.asean.singapore');
+    }
+
 
     public function internationalCourtofJustice()
     {
@@ -144,6 +190,31 @@ class DropdownController extends Controller
         return view('frontend.jobs-internships.international');
     }
 
+    public function institutesAndUniversities()
+    {
+        return view('frontend.legal-training.institutes-and-universities');
+    }
+
+    public function center()
+    {
+        return view('frontend.legal-training.center');
+    }
+
+    public function shortCourses()
+    {
+        return view('frontend.legal-training.short-courses');
+    }
+
+    public function informationConferences()
+    {
+        return view('frontend.legal-training.information-on-conferences');
+    }
+
+    public function videoPresentations()
+    {
+        return view('frontend.legal-training.video-presentations');
+    }
+
     public function bookSuccess()
     {
         return view('frontend.book-store.book-success');
@@ -176,12 +247,12 @@ class DropdownController extends Controller
 
     public function successfullStatements()
     {
-        return view('frontend.the-key-to-success.successfull-statements');
+        return view('frontend.the-key-to-success.successful-statements');
     }
 
     public function successfullPersonalInterviews()
     {
-        return view('frontend.the-key-to-success.successfull-personal-interviews');
+        return view('frontend.the-key-to-success.successful-personal-interviews');
     }
 
     public function personalProfileSuccessintheLegalField()
