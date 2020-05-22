@@ -1,0 +1,18 @@
+.img_resize_box{
+  overflow: hidden;
+  min-height: 150px;
+}
+.img_resize_box>img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img.set_h{
+  height: 100%;
+  width: unset;
+}
+img.set_w{
+  height: unset;
+  width: 100%;
+}
