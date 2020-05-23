@@ -160,6 +160,106 @@ class DropdownController extends Controller
         return view('frontend.verdict.international.bosnia-herzegovina-human-rights-court');
     }
 
+    public function magazines()
+    {
+        return view('frontend.books-magazines.magazine');
+    }
+
+    public function listofResearchfilesRelevanttoCabodianlaw()
+    {
+        return view('frontend.books-magazines.list-of-research-files-relevant-to-cambodian-law');
+    }
+
+    public function listofTreatiesofCambodiaasaparty()
+    {
+        return view('frontend.books-magazines.list-of-treaties-of-cambodia-as-a-party');
+    }
+
+    public function lawDictionary()
+    {
+        return view('frontend.books-magazines.law-dictionary');
+    }
+
+    public function trialcriminallaw()
+    {
+        return view('frontend.verdict.cambodia.trial.criminal-law');
+    }
+
+    public function trialcivilparties()
+    {
+        return view('frontend.verdict.cambodia.trial.civil-parties');
+    }
+
+    public function booklaw()
+    {
+        return view('frontend.books-magazines.books.law');
+    }
+
+    public function bookhumanRights()
+    {
+        return view('frontend.books-magazines.books.human-rights');
+    }
+
+    public function bookinternationalLaw()
+    {
+        return view('frontend.books-magazines.books.international-law');
+    }
+
+    public function booknonContractualLiability()
+    {
+        return view('frontend.books-magazines.books.non-contractual-liability');
+    }
+
+    public function bookcriminalLaw()
+    {
+        return view('frontend.books-magazines.books.criminal-law');
+    }
+
+    public function bookinternationalHumanitarianLaw()
+    {
+        return view('frontend.books-magazines.books.international-humanitarian-law');
+    }
+
+    public function bookmarineLaw()
+    {
+        return view('frontend.books-magazines.books.marine-law');
+    }
+
+    public function bookinternationalPrivateLaw()
+    {
+        return view('frontend.books-magazines.books.international-private-law');
+    }
+
+    public function documenthumanRights()
+    {
+        return view('frontend.books-magazines.document.human-rights');
+    }
+
+    public function documentinternationalLaw()
+    {
+        return view('frontend.books-magazines.document.international-law');
+    }
+
+    public function documentinternationalHumanitarianLaw()
+    {
+        return view('frontend.books-magazines.document.international-humanitarian-law');
+    }
+
+    public function documentcriminalJustice()
+    {
+        return view('frontend.books-magazines.document.criminal-law');
+    }
+
+    public function documentmarineLaw()
+    {
+        return view('frontend.books-magazines.document.marine-law');
+    }
+
+    public function documentinternationalPrivateLaw()
+    {
+        return view('frontend.books-magazines.document.international-private-law');
+    }
+
     public function jobInternships()
     {
         return view('frontend.internship');

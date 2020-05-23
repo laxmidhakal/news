@@ -1,24 +1,9 @@
-@extends('frontend.app')
+@extends('frontend.main.app')
 @section('content')
   <div class="container">
     <div class="search-box">
       <form>
-        @if(isset($page_name))
-        <input type="hidden" id="page_name" name="page_name" value="{{$page_name}}">
-        @endif
-
-        @if(isset($name2))
-        <input type="hidden" id="name2" name="name2" value="{{$name2}}">
-        @endif
-        
-        @if(isset($name3))
-        <input type="hidden" id="name3" name="name3" value="{{$name3}}">
-        @endif
-         @if(isset($name4))
-         <input type="hidden" id="name4" name="name4" value="{{$name4}}">
-        @endif
         <input type="hidden" name="_token" class="token" value="{{ csrf_token() }}">
-        <!-- <input type="hidden" class="main_val"  value="{{ $page_name }}"> -->
         <div class="row">
           <div class="col-sm-10">
             <div class="row">
@@ -34,25 +19,16 @@
               <div class="col-xs-6 col-sm-3">
                 <select class="form-control institute" id="institute" name="institute">
                   <option value=0 >Institute</option>
-                  @foreach($institute_detail as $inst)
-                  <option value="{{$inst->id}}">{{$inst->name}}</option>
-                  @endforeach
                 </select>
               </div>
               <div class="col-xs-6 col-sm-3">
                 <select class="form-control category" id="category" name="category">
                   <option value=0>Document Category</option>
-                  @foreach($category_detail as $cat)
-                  <option value="{{$cat->id}}">{{$cat->name}}</option>
-                  @endforeach
                 </select>
               </div>
               <div class="col-xs-6 col-sm-3">
                 <select class="form-control domain" id="domain" name="domain">
                   <option value=0>Domain</option>
-                  @foreach($domain_detail as $dom)
-                  <option value="{{$dom->id}}">{{$dom->name}}</option>
-                  @endforeach
                 </select>
               </div>
               <div class="col-xs-6 col-sm-3">
@@ -141,46 +117,36 @@
             </tr>
           </thead>
           <tbody>
-            @foreach($main_datas as $index=>$main)
             <tr>
-              <td>{{$index+1}}</td>
+              <td>index</td>
               <td>
-                <a href="{{URL::to('/')}}/detail/{{$main->translation_id}}">{!! $main->title !!}</a>
+                <a href="{{URL::to('/')}}/detail/$main->translation_id"></a>
               </td>
-              <td>{{$main->getCategoryDetail->name}}</td>
-              <td>{{ date('j M Y',strtotime($main->created_at))}}</td>
+              <td>$main->getCategoryDetail->name</td>
+              <td> date</td>
               <td>
-                @if($main->khu_pdf_enc == "")
                 <a class="disabled">
                   <img src="{{URL::to('/')}}/images/pdf-icon-non.png">
                 </a>
-                @else
-                <a href="{{URL::to('/')}}/download/{{$page_name}}/{{$main->khu_pdf_enc}}">
+                <a href="">
                   <img src="{{URL::to('/')}}/images/pdf-icon.png">
                 </a>
-                @endif
               </td>
               <td>
-                @if($main->end_pdf_enc == "")
                 <a class="disabled">
                   <img src="{{URL::to('/')}}/images/pdf-icon-non.png">
                 </a>
-                @else
-                <a href="{{URL::to('/')}}/download/{{$page_name}}/{{$main->end_pdf_enc}}">
+                <a href="">
                   <img src="{{URL::to('/')}}/images/pdf-icon.png">
                 </a>
-                @endif
               </td>
             </tr>
-            @endforeach
-           
           </tbody>
         </table>
         </div>
       </div>
       <div class="text-right">
         <ul class="pagination">
-          {!! str_replace('/?', '?', $main_datas->render()) !!}
           <!-- <li><a href="#">Prev</a></li>
           <li><a href="#">1</a></li>
           <li class="active"><a href="#">2</a></li>
@@ -193,4 +159,4 @@
     </div>
   </div>
   
-  @endsection
+@endsection
