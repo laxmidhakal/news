@@ -14,9 +14,52 @@ h6 {
 .list-justified {
   width: 100%;
 }
+.bottom {
+  padding-bottom:  10px;
+  align-content: center;
+}
 .list-justified li {
   display: table-cell;
   width: 1%;
+}
+a.link.facebook {
+  background: #355496;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: #fff;
+}
+a.link.twitter {
+  background-color: #00ACEE;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: #fff;
+}
+a.link.google-plus{
+  background-color: #ff6347;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: #fff;
+}
+a.link.linkedin{
+  background-color: #0e76a8;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: #fff;
+}
+.main-spin{
+  /*padding-top:10px;*/
+}
+.main-spin:hover{
+  transition: 0.9s;
+  transform: rotateY(180deg);
 }
 
 .page-section {
@@ -183,6 +226,7 @@ nav.navbar .navbar-toggle .icon-bar {
   margin-bottom: 10px;
 }
 
+
 .publication-grid {
   margin: 0 -10px;
 }
@@ -272,6 +316,13 @@ nav.navbar .navbar-toggle .icon-bar {
     -o-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+}
+.publication-padding {
+  padding: 3px 10px;
+}
+.publication-padding > div {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -457,4 +508,9 @@ footer ul li a{
 
 .pad-l-10{
   padding-left: 10px;
+}
+
+.carousel slide padding{
+  padding-top: 10px !important
+  padding-bottom: 10px !important;
 }

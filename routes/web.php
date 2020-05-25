@@ -11,15 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/app', function () {
     return view('frontend.main.app');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/search_data', 'FrontController@search')->name('search_data');
-Route::get('/languagechooser', 'Frontend/FrontController@languagechooser')->name('languagechooser');
+Route::get('/', 'Frontend\FrontController@index')->name('mainhome');
+Route::get('/search_data', 'Frontend\FrontController@search')->name('search_data');
+Route::get('/languagechooser', 'Frontend\FrontController@languagechooser')->name('languagechooser');
 Route::get('/publication', 'Frontend\FrontController@publication')->name('publication');
 Route::get('/documents', 'Frontend\FrontController@document')->name('document');
 Route::get('/search', 'Frontend\FrontController@search')->name('search');

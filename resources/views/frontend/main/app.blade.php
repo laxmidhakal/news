@@ -19,9 +19,38 @@
   <header>
     <div class="top-banner">
       <div class="container banner_content">
+        <div  align="text-center">
+            <ul class="list-inline">
+                <li class="list-inline-item text-light main-font-12">
+                    <i class="fa fa-phone mr-1"></i> 
+                    +977-124466
+                </li>
+                <li class="list-inline-item text-light main-font-12">
+                    <i class="fa fa-envelope mr-1"></i> 
+                    kinyamateka@gmail.com
+                </li>
+                <li class="list-inline-item my-auto">
+                    <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
+                        <i class="fa fa-facebook main-spin"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
+                        <i class="fa fa-twitter main-spin" ></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
+                        <i class="fa fa-linkedin main-spin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div align="left">
           <a href="" id="en" class="language"><img alt="En" src="{{URL::to('/')}}/images/us.png" width="2%" id="en" class="language" title="U.S"> </a> | <a href="" id="kh" class="language"><img alt="Kh" src="{{URL::to('/')}}/images/cambodia.png" width="2%" id="kh" class="language" title="Cambodia"></a>
         </div>
+        
+        
         <div class="text-right">
           
           <a href="{{URL::to('/')}}"><button class="btn btn-default color-blue"><i class="fa fa-home" aria-hidden="true"></i></button></a>
@@ -85,10 +114,9 @@
       </div>
     </div>
   </div>
-
 @yield('content')
+@yield('javascript')
 @include('frontend.main.footer')
-
 </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
