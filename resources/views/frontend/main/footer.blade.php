@@ -8,11 +8,9 @@
         </p>
         <ul class="list-inline">
           <li><a href=".">Home</a></li>
-          <li><a href="{{URL::to('/')}}/publication">Publications</a></li>
-          <li><a href="{{URL::to('/')}}/documents">Documents</a></li> 
-          <li><a href="{{URL::to('/')}}/search">Search</a></li> 
-          <li><a href="{{URL::to('/')}}/directory">Directory</a></li> 
-          <li><a href="{{URL::to('/')}}/map">Map</a></li> 
+          <li><a href="{{URL::to('/')}}/archives">Archives</a></li>
+          <li><a href="{{URL::to('/')}}/services">Services</a></li> 
+          <li><a href="{{URL::to('/')}}/bookstore">Bookstore</a></li> 
           <li><a href="{{URL::to('/')}}/contact">Contact Us</a></li>
         </ul>
         <hr>

@@ -17,6 +17,21 @@ class FrontController extends Controller
         return view('frontend.main.slider');
     }
 
+    public function archives()
+    {
+        return view('frontend.archives.archives');
+    }
+
+    public function services()
+    {
+        return view('frontend.services.services');
+    }
+
+    public function bookstore()
+    {
+        return view('frontend.bookstore.bookstore');
+    }
+
     public function publication()
     {
         return view('frontend.publication.publication');
