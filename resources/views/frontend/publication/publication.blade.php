@@ -49,6 +49,11 @@
               <p class="read-more">Read More</p>
             </div>
           </a>
+          <td>
+            <a href="{{URL::to('/')}}/images/slider/hero-1.jpg" data-toggle="lightbox" data-title="Image">
+              <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" class="img-thumbnail img-fluid back-img center-block">
+            </a>
+          </td>
           <!-- </div> -->
         </div>
       </div>

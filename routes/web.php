@@ -19,9 +19,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'Frontend\FrontController@index')->name('mainhome');
-Route::get('/archives', 'Frontend\FrontController@archives')->name('archives');
-Route::get('/services', 'Frontend\FrontController@services')->name('services');
-Route::get('/bookstore', 'Frontend\FrontController@bookstore')->name('bookstore');
+Route::get('/archives', 'Frontend\FrontController@publication')->name('archives');
+Route::get('/services', 'Frontend\FrontController@document')->name('services');
+Route::get('/bookstore', 'Frontend\FrontController@search')->name('bookstore');
 Route::get('/search_data', 'Frontend\FrontController@search')->name('search_data');
 Route::get('/languagechooser', 'Frontend\FrontController@languagechooser')->name('languagechooser');
 Route::get('/publication', 'Frontend\FrontController@publication')->name('publication');

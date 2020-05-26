@@ -10,11 +10,14 @@ h5,
 h6 {
   font-family: 'Lora', serif;
 }
-
 .list-justified {
   width: 100%;
 }
 .bottom {
+  padding-bottom:  10px;
+  align-content: center;
+}
+.listbottom{
   padding-bottom:  10px;
   align-content: center;
 }

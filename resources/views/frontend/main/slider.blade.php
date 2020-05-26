@@ -1,40 +1,36 @@
 @extends('frontend.main.app')
 @section('content')
 <div class="container">
-  <div id="carousel-example-generic" class="carousel slide padding" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="{{URL::to('/')}}/images/slider/slide_1.jpg" alt="...">
-        <div class="carousel-caption">
-        </div>
-      </div>
-      <div class="item">
-        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
-        <div class="carousel-caption">
-        </div>
+  <div class="home-slider owl-carousel owl-theme">
+    <div class="item">
+      <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+      <div class="slider-content">
+        <h2></h2>
+        <p></p>
       </div>
     </div>
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
   <h2 class="section-title">Currrent Publication</h2>
   <div class="row publication-grid">
     <div class="col-md-4">
-     <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
+      <div class="thumbnail">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
+        <div class="caption text-center">
+          <h3>Image</h3>
+          <p><a href="#" class="btn btn-warning" role="button" id="color">View</a> <a href="#" class="btn btn-default" role="button">Order</a></p>
+        </div>
+      </div>
     </div>
     <div class="col-md-4">
-     <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
+      <div class="thumbnail">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
+        <div class="caption text-center">
+          <h3>Image</h3>
+          <p>
+          <a href="#" class="btn btn-warning" role="button" id="color">View</a> <a href="#" class="btn btn-default" role="button">Order</a>
+          </p>
+        </div>
+      </div>
     </div>
     <div class="col-md-4">
       <h2 class="section-title"> Publicity/Advertising site</h2>
@@ -50,10 +46,10 @@
          <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
         </div>
         <div class="col-xs-7 col-sm-7 pub-detail">
-         <h4 class="pub-title">$directory->title</h4>
+         <h4 class="pub-title">title</h4>
          <p class="pub-summary">
          </p>
-         <p><b>ID</b> : $directory->function</p>
+         <p><b>ID</b> : News</p>
          <p class="read-more">Read More</p>
         </div>
       </a>
@@ -70,25 +66,81 @@
          <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
         </div>
         <div class="col-xs-7 col-sm-7 pub-detail">
-         <h4 class="pub-title">$directory->title</h4>
+         <h4 class="pub-title">title</h4>
          <p class="pub-summary">
          </p>
-         <p><b>ID</b> : $directory->function</p>
+         <p><b>ID</b> : News</p>
          <p class="read-more">Read More</p>
         </div>
       </a>
     </div>
     <div class="col-md-4">
-      
     </div>
   </div>
   <div class="row publication-padding">
-    <div class="col-md-8">
-      <h2 class="section-title text-center"> Our partners</h2>
+    <h2 class="section-title text-center"> Our Partners</h2>
+    <div class="col-md-4">
+      <div class="home-slider owl-carousel owl-theme">
+        <div class="item">
+          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+          <div class="slider-content">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+          <div class="slider-content">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-md-4">
-      <h2 class="section-title text-center"> Important links</h2>
-      <p></p>
+      <div class="home-slider owl-carousel owl-theme">
+        <div class="item">
+          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+          <div class="slider-content">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+          <div class="slider-content">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+        <h2 class="section-title text-center"> Important links</h2>
+        </div>
+        <div class="panel-body">
+          <ul class="list-inline">
+            <li class="list-inline-item my-auto" >
+              <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
+                <i class="fa fa-facebook main-spin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
+                <i class="fa fa-twitter main-spin" ></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
+                <i class="fa fa-linkedin main-spin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
     </div>
   </div>
 </div>

@@ -19,35 +19,32 @@
   <header>
     <div class="top-banner">
       <div class="container banner_content">
-        <div  align="text-center">
-            <ul class="list-inline">
-                <li class="list-inline-item text-light main-font-12">
-                    <i class="fa fa-phone mr-1"></i> 
-                    +977-124466
-                </li>
-                <li class="list-inline-item text-light main-font-12">
-                    <i class="fa fa-envelope mr-1"></i> 
-                    kinyamateka@gmail.com
-                </li>
-                <li class="list-inline-item my-auto">
-                    <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
-                        <i class="fa fa-facebook main-spin"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
-                        <i class="fa fa-twitter main-spin" ></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
-                        <i class="fa fa-linkedin main-spin"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div align="left">
-          <a href="" id="en" class="language"><img alt="En" src="{{URL::to('/')}}/images/us.png" width="2%" id="en" class="language" title="U.S"> </a> | <a href="" id="kh" class="language"><img alt="Kh" src="{{URL::to('/')}}/images/cambodia.png" width="2%" id="kh" class="language" title="Cambodia"></a>
+          <ul class="list-inline">
+              <li class="list-inline-item text-light main-font-12">
+                  <i class="fa fa-phone mr-1"></i> 
+                  +977-124466
+              </li>
+              <li class="list-inline-item text-light main-font-12">
+                  <i class="fa fa-envelope mr-1"></i> 
+                  kinyamateka@gmail.com
+              </li>
+              <li class="list-inline-item my-auto">
+                  <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
+                      <i class="fa fa-facebook main-spin"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
+                      <i class="fa fa-twitter main-spin" ></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
+                      <i class="fa fa-linkedin main-spin"></i>
+                  </a>
+              </li>
+          </ul>
         </div>
         
         
@@ -128,7 +125,13 @@
       'resizeDuration': 200,
       'wrapAround': true
     })
-</script>
+  </script>
+  <script type="text/javascript">
+   $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+     event.preventDefault();
+     $(this).ekkoLightbox();
+   });
+  </script>
   <script type="text/javascript">
     auto_resizer(".publication-grid .pub-image>img");
     auto_resizer(".home-slider .item>img");
