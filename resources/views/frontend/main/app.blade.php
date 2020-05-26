@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/owl.carousel.min.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/style.css">
+  <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/style.main.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/auto_img_resizer.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/lightbox.min.css">
 </head>
@@ -127,12 +128,6 @@
     })
   </script>
   <script type="text/javascript">
-   $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-     event.preventDefault();
-     $(this).ekkoLightbox();
-   });
-  </script>
-  <script type="text/javascript">
     auto_resizer(".publication-grid .pub-image>img");
     auto_resizer(".home-slider .item>img");
   </script>
@@ -151,6 +146,16 @@
         margin: 50,
         dots: false,
         items: 1
+    })
+  </script>
+  <script type="text/javascript">
+    $('.home-partner.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        margin: 50,
+        dots: false,
+        items: 2
     })
   </script>
   <script type="text/javascript">

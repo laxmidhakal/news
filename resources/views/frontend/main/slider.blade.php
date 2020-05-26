@@ -11,25 +11,27 @@
     </div>
   </div>
   <h2 class="section-title">Currrent Publication</h2>
-  <div class="row publication-grid">
+  <div class="row publication-gridblock">
     <div class="col-md-4">
       <div class="thumbnail">
         <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
-        <div class="caption text-center">
-          <h3>Image</h3>
-          <p><a href="#" class="btn btn-warning" role="button" id="color">View</a> <a href="#" class="btn btn-default" role="button">Order</a></p>
-        </div>
+      </div>
+      <div class="col-sm-6">
+        <a href="#" class="btn btn-warning btn-block" role="button" id="color">View</a>
+      </div>
+      <div class="col-sm-6">
+        <a href="#" class="btn btn-default btn-block" role="button" id="color">Order</a>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
         <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
-        <div class="caption text-center">
-          <h3>Image</h3>
-          <p>
-          <a href="#" class="btn btn-warning" role="button" id="color">View</a> <a href="#" class="btn btn-default" role="button">Order</a>
-          </p>
-        </div>
+      </div>
+      <div class="col-sm-6">
+        <a href="#" class="btn btn-warning btn-block" role="button" id="color">View</a>
+      </div>
+      <div class="col-sm-6">
+        <a href="#" class="btn btn-default btn-block" role="button" id="color">Order</a>
       </div>
     </div>
     <div class="col-md-4">
@@ -46,7 +48,7 @@
          <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
         </div>
         <div class="col-xs-7 col-sm-7 pub-detail">
-         <h4 class="pub-title">title</h4>
+         <h4 class="pub-title">Latest</h4>
          <p class="pub-summary">
          </p>
          <p><b>ID</b> : News</p>
@@ -66,7 +68,7 @@
          <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
         </div>
         <div class="col-xs-7 col-sm-7 pub-detail">
-         <h4 class="pub-title">title</h4>
+         <h4 class="pub-title">Latest</h4>
          <p class="pub-summary">
          </p>
          <p><b>ID</b> : News</p>
@@ -77,41 +79,12 @@
     <div class="col-md-4">
     </div>
   </div>
-  <div class="row publication-padding">
+  <div class="row publication-grid">
+    <div class="col-md-8">
     <h2 class="section-title text-center"> Our Partners</h2>
-    <div class="col-md-4">
-      <div class="home-slider owl-carousel owl-theme">
+      <div class="home-partner owl-carousel owl-theme">
         <div class="item">
           <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
-          <div class="slider-content">
-            <h2></h2>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
-          <div class="slider-content">
-            <h2></h2>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="home-slider owl-carousel owl-theme">
-        <div class="item">
-          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
-          <div class="slider-content">
-            <h2></h2>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
-          <div class="slider-content">
-            <h2></h2>
-            <p></p>
-          </div>
         </div>
       </div>
     </div>

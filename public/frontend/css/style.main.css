@@ -1,0 +1,117 @@
+.home-partner.owl-carousel .owl-stage-outer{
+  border-radius: 10px;
+}
+.home-partner.owl-carousel .owl-item .item{
+  position: relative;
+}
+
+.home-partner{
+  /*margin-top: -79px;*/
+  margin-bottom: 30px;
+}
+.home-partner .item{
+  height: 150px;
+}
+.publicationblock img {
+    width: 200%;
+    box-shadow: none;
+}
+.navblock{
+    display: inline!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+
+.publicationblock-grid {
+}
+.publicationblock-grid > div {
+  margin-bottom: 20px;
+}
+.publicationblock-grid a.publicationblock {
+  color: #1f1a54;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #ccc;
+  height: 100%;
+}
+.publicationblock-grid a.publicationblock:hover {
+  /*top: -2px;*/
+  /*position: relative;*/
+  /*@include transition(0.3s);*/
+  box-shadow: 0 0 4px 1px #ccc;
+}
+.publicationblock-grid a.publicationblock:hover .pub-image > img {
+  transform: translate(-50%, -50%) scale(1.2) rotate(-5deg);
+}
+.publicationblock-grid a.publicationblock p {
+  color: #1f1a54;
+}
+.publicationblock-grid a.publicationblock .pub-image {
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+}
+.publicationblock-grid a.publicationblock .pub-image img {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (max-width: 540px) {
+  .publicationblock-grid a.publicationblock .pub-detail {
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+  }
+}
+@media (min-width: 491px) {
+  .publicationblock-grid {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+.captionthumbnail{
+  padding:45 px !important; 
+}
+.publication-gridblock a.publication:hover .pub-image > img {
+  transform: translate(-50%, -50%) scale(1.2) rotate(-5deg);
+}
+.publication-gridblock a.publication p {
+  color: #1f1a54;
+}
+.publication-gridblock a.publication .pub-image {
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+}
+.publication-gridblock a.publication .pub-image img {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (max-width: 540px) {
+  .publication-gridblock a.publication .pub-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+}
+.publication-gridblock a.publication .pub-detail {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 0 5px 5px 0;
+}
