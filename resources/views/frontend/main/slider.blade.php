@@ -15,12 +15,12 @@
     <div class="col-md-4">
       <div class="thumbnail ">
         <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  style="height: 107px; width: 100%;">
-          <div class="col-sm-6 viewdiv">
-            <a href="#" class="btn btncssview btn-warning btn-block" role="button" id="color">View</a>
-          </div>
-          <div class="col-sm-6 orderdiv">
-            <a href="#" class="btn btncssorder btn-default btn-block" role="button" id="color">Order</a>
-          </div>
+        <div class="col-sm-6 viewdiv">
+          <a href="#" class="btn btncssview btn-warning btn-block" role="button" id="color">View</a>
+        </div>
+        <div class="col-sm-6 orderdiv">
+          <a href="#" class="btn btncssorder btn-default btn-block" role="button" id="color">Order</a>
+        </div>
       </div>
     </div>
     <div class="col-md-4">
