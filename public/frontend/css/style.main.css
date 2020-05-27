@@ -118,3 +118,9 @@
 .btncssorder{
   padding: 6px 155px 6px 5px !important;
 }
+.viewdiv{
+  padding-left: 0px !important;
+}
+.orderdiv{
+  padding-right:  0px !important;
+}
