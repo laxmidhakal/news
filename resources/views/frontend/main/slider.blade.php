@@ -14,7 +14,7 @@
   <div class="row publication-gridblock">
     <div class="col-md-4">
       <div class="thumbnail">
-        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  style="height: 107px; width: 100%;">
       </div>
       <div class="col-sm-6">
         <a href="#" class="btn btn-warning btn-block" role="button" id="color">View</a>
@@ -25,14 +25,16 @@
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="...">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  style="height: 107px; width: 100%;">
       </div>
       <div class="col-sm-6">
         <a href="#" class="btn btn-warning btn-block" role="button" id="color">View</a>
       </div>
       <div class="col-sm-6">
-        <a href="#" class="btn btn-default btn-block" role="button" id="color">Order</a>
+        <a href="#" class="btn btn-warning btn-block" role="button" id="color">View</a>
       </div>
+      
+      
     </div>
     <div class="col-md-4">
       <h2 class="section-title"> Publicity/Advertising site</h2>

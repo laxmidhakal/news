@@ -18,14 +18,19 @@
 }
 .navblock{
     display: inline!important;
-    height: auto!important;
     padding-bottom: 0;
     overflow: visible!important;
 }
+.headerblock{
+    display: inline!important;
+}
 
 .publicationblock-grid {
+  margin: 0 -10px;
+
 }
 .publicationblock-grid > div {
+  padding: 0 20px;
   margin-bottom: 20px;
 }
 .publicationblock-grid a.publicationblock {

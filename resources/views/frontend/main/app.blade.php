@@ -21,7 +21,7 @@
     <div class="top-banner">
       <div class="container banner_content">
         <div align="left">
-          <ul class="list-inline">
+          <ul class="list-inline headerblock">
               <li class="list-inline-item text-light main-font-12">
                   <i class="fa fa-phone mr-1"></i> 
                   +977-124466
@@ -47,8 +47,6 @@
               </li>
           </ul>
         </div>
-        
-        
         <div class="text-right">
           
           <a href="{{URL::to('/')}}"><button class="btn btn-default color-blue"><i class="fa fa-home" aria-hidden="true"></i></button></a>
