@@ -466,6 +466,7 @@ table a img {
 }
 .home-slider img{
   border-radius: 10px;
+  margin-top: 40px;
 }
 .login-content-wrapper{
   padding: 50px 0;

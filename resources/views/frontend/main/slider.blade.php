@@ -14,9 +14,9 @@
   <div class="row publicationblock-grid">
     <div class="col-md-4">
       <div class="thumbnail ">
-        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  style="height: 107px; width: 100%;">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  class="publicationimage">
         <div class="col-sm-6 viewdiv">
-          <a href="#" class="btn btncssview btn-warning btn-block" role="button" id="color">View</a>
+          <a href="#" class="btn btncssofview btn-warning btn-block" role="button" id="btncssofview">View</a>
         </div>
         <div class="col-sm-6 orderdiv">
           <a href="#" class="btn btncssorder btn-default btn-block" role="button" id="color">Order</a>
@@ -25,9 +25,9 @@
     </div>
     <div class="col-md-4">
       <div class="thumbnail ">
-        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..."  style="height: 107px; width: 100%;">
+        <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" alt="..." class="publicationimage">
           <div class="col-sm-6 viewdiv">
-            <a href="#" class="btn btncssview btn-warning btn-block" role="button" id="color">View</a>
+            <a href="#" class="btn btncssofview btn-warning btn-block" role="button" id="btncssofview">View</a>
           </div>
           <div class="col-sm-6 orderdiv">
             <a href="#" class="btn btncssorder btn-default btn-block" role="button" id="color">Order</a>
