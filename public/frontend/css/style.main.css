@@ -117,6 +117,8 @@
   border-radius:0 !important;
   height: 35px !important;
   width: 180px !important;
+  background-color: #c8a05a !important;
+
 }
 .viewdiv{
   padding-left: 0px !important;
@@ -133,4 +135,21 @@
 .publicationimage{
   height: 207px !important;
   width: 100%;
+}
+.largenavbar {
+  background-color: #1f1a54;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 10px;
+  padding: 0 15px 5px 15px;
+  position: relative;
+  z-index: 2;
+}
+.largenavbar .row {
+  margin: 0 -5px;
+}
+.largenavbar .row > div {
+  padding: 0 5px;
+}
+.largenavbar .row > div .form-control, .largenavbar .row > div .btn {
+  margin-bottom: 10px;
 }

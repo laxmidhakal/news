@@ -1,4 +1,4 @@
-<div class=" navbar-collapse navblock" id="myNavbar">
+<div class="collapse navbar-collapse" id="myNavbar">
   <ul class="nav navbar-nav">
     <li>
       <a href="{{URL::to('/')}}/home">

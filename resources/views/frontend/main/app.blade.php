@@ -20,46 +20,51 @@
   <header>
     <div class="top-banner">
       <div class="container banner_content">
-        <div align="left">
-          <ul class="list-inline headerblock">
-              <li class="list-inline-item text-light main-font-12">
-                  <i class="fa fa-phone mr-1"></i> 
-                  +977-124466
-              </li>
-              <li class="list-inline-item text-light main-font-12">
-                  <i class="fa fa-envelope mr-1"></i> 
-                  kinyamateka@gmail.com
-              </li>
-              <li class="list-inline-item my-auto">
-                  <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
-                      <i class="fa fa-facebook main-spin"></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
-                      <i class="fa fa-twitter main-spin" ></i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
-                      <i class="fa fa-linkedin main-spin"></i>
-                  </a>
-              </li>
-          </ul>
-        </div>
-        <div class="text-right">
-          
-          <a href="{{URL::to('/')}}"><button class="btn btn-default color-blue"><i class="fa fa-home" aria-hidden="true"></i></button></a>
-          @if (Auth::guest())
-          <button class="btn btn-default color-blue" data-toggle="modal" data-target="#login"><i class="glyphicon glyphicon-user"></i> Login</button>
-          @else
-          <li class="dropdown">
-              <button href="#" class="btn btn-default color-blue dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></button>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+        <div class="row">
+          <div class="col-sm-6">
+            <div align="left">
+              <ul class="list-inline headerblock">
+                  <li class="list-inline-item text-light main-font-12">
+                      <i class="fa fa-phone mr-1"></i> 
+                      +977-124466
+                  </li>
+                  <li class="list-inline-item text-light main-font-12">
+                      <i class="fa fa-envelope mr-1"></i> 
+                      kinyamateka@gmail.com
+                  </li>
+                  <li class="list-inline-item my-auto">
+                      <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
+                          <i class="fa fa-facebook main-spin"></i>
+                      </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
+                          <i class="fa fa-twitter main-spin" ></i>
+                      </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
+                          <i class="fa fa-linkedin main-spin"></i>
+                      </a>
+                  </li>
               </ul>
-          </li>
-          @endif
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div align="right">
+              <a href="{{URL::to('/')}}"><button class="btn btn-default color-blue"><i class="fa fa-home" aria-hidden="true"></i></button></a>
+              @if (Auth::guest())
+              <button class="btn btn-default color-blue" data-toggle="modal" data-target="#login"><i class="glyphicon glyphicon-user"></i> Login</button>
+              @else
+              <li class="dropdown">
+                  <button href="#" class="btn btn-default color-blue dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+                  </ul>
+              </li>
+              @endif
+            </div>
+          </div>
         </div>
         <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive">
         <h1>Kinyamateka </h1>
@@ -109,6 +114,21 @@
 
       </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="largenavbar">
+         <form>
+           <div class="row">
+             <div class="col-sm-3">
+               
+             </div>
+             <div class="col-sm-9">
+               <li>
+               </li>
+             </div>
+           </div>
+         </form>
+       </div>
   </div>
 @yield('content')
 @yield('javascript')
