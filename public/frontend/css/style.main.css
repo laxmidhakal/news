@@ -153,3 +153,7 @@
 .largenavbar .row > div .form-control, .largenavbar .row > div .btn {
   margin-bottom: 10px;
 }
+.hometext{
+  font-weight:bold;
+  /*color: #c8a05a !important;*/
+}
