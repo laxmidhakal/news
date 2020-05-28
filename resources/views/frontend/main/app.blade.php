@@ -21,16 +21,7 @@
     <div class="top-banner">
       <div class="container banner_content">
         <div class="row">
-          <div>
-            <div align="left">
-              <p class="text-center hometext">Branding items of Kinyamateka</p>
-            </div>
-          </div>
-          <div>
-            <div align="left">
-              <p class="text-center hometext">Branding items of Catholic Church</p>
-            </div>
-          </div>
+              
           <div class="col-sm-3">
             <div align="left">
               <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive">
@@ -63,6 +54,8 @@
                       </a>
                   </li>
               </ul>
+              <p class="text-center hometext">Branding items of Kinyamateka</p>
+              <p class="text-center hometext">Branding items of Catholic Church</p>
             </div>
           </div>
           <div class="col-sm-3">
