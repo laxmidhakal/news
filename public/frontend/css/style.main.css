@@ -115,17 +115,18 @@
 .btncssofview{
   padding: 6px 20px 6px 20px !important;
   border-radius:0 !important;
+  border: none ;
   height: 35px !important;
   width: 180px !important;
   background-color: #c8a05a !important;
 
 }
 .viewdiv{
-  padding-left: 0px !important;
+  padding-left: 0px;
 }
 .btncssorder{
   padding: 6px 20px 6px 20px !important;
-  border-radius:0 !important;
+  border-radius:0 ;
   height: 35px !important;
   width: 175px !important;
 }
