@@ -139,7 +139,8 @@
 }
 .publicationimage{
   height: 207px !important;
-  width: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 .largenavbar {
   background-color: #1f1a54;
@@ -163,3 +164,4 @@
   margin: 5px 0 10px !important;
   /*color: #c8a05a !important;*/
 }
+
