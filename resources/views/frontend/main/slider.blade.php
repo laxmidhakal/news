@@ -45,6 +45,65 @@
     <div class="col-md-8">
       <a href="" class="publication">
         <div class="col-xs-5 col-sm-5 pub-image">
+         <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/covid.jpg" style="height: 199px; width: 100%;">
+        </div>
+        <div class="col-xs-7 col-sm-7 pub-detail">
+         <h4 class="pub-title">Rwanda, DR Congo agree to reopen border amid Covid-19</h4>
+         <p class="pub-summary">
+          Senior Rwandan officials and their counterparts from the Democratic Republic of the Congo (RDC), on Thursday, May 27 agreed on a set of mechanisms to revive cross-border trade despite the Covid-19 outbreak. The senior officials met in Rubavu District at La Corniche One Stop Border Post a...
+         </p>
+         <p class="read-more">Read More</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+     
+    </div>
+  </div>
+  <div class="row publication-grid">
+    <div class="col-md-8">
+      <a href="" class="publication">
+        <div class="col-xs-5 col-sm-5 pub-image">
+         <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/1news.jpg" style="height: 199px; width: 100%;">
+        </div>
+        <div class="col-xs-7 col-sm-7 pub-detail">
+         <h4 class="pub-title">Inside Kigali International Airport expansion works</h4>
+         <p class="pub-summary">
+          A team of workers supervised by engineers are putting finishing touches on some of the major sections of Kigali International Airport as part of the expansion works. Workers and trucks are seen clearing the new apron – an airport parking – which according to Rwanda Airports (RAC...
+          Saturday, May 30, 2020 - 12:37am
+         </p>
+         <p class="read-more">Read More</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+  <div class="row publication-grid">
+    <div class="col-md-8">
+      <a href="" class="publication">
+        <div class="col-xs-5 col-sm-5 pub-image">
+         <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/woman.jpg" style="height: 199px; width: 100%;">
+        </div>
+        <div class="col-xs-7 col-sm-7 pub-detail">
+         <h4 class="pub-title">Peacekeeping: Redefining the role of Rwandan women</h4>
+         <p class="pub-summary">
+          By the time Lieutenant Ariane Mwiza completed her secondary education at the Kigali-based Lycée Notre Dame de Citeaux, she already knew that somehow, her career path would involve the military. At just 25, Mwiza is not only part of the Rwanda Defense Force (RDF), she is also currently serving as...
+          Friday, May 29, 2020 - 11:31pm
+         </p>
+         <p class="read-more">Read More</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+       <h2 class="section-title"> Subscribers</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam recusandae aliquid quod et deserunt nemo mollitia dicta? Aperiam illo animi impedit ipsa repudiandae amet omnis, nostrum ab! Odio, architecto, laboriosam?</p>
+    </div>
+  </div>
+  <div class="row publication-grid">
+    <div class="col-md-8">
+      <a href="" class="publication">
+        <div class="col-xs-5 col-sm-5 pub-image">
          <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
         </div>
         <div class="col-xs-7 col-sm-7 pub-detail">
@@ -57,8 +116,24 @@
       </a>
     </div>
     <div class="col-md-4">
-      <h2 class="section-title"> Subscribers</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam recusandae aliquid quod et deserunt nemo mollitia dicta? Aperiam illo animi impedit ipsa repudiandae amet omnis, nostrum ab! Odio, architecto, laboriosam?</p>
+    </div>
+  </div>
+  <div class="row publication-grid">
+    <div class="col-md-8">
+      <a href="" class="publication">
+        <div class="col-xs-5 col-sm-5 pub-image">
+         <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/slider/hero-1.jpg" style="height: 199px; width: 100%;">
+        </div>
+        <div class="col-xs-7 col-sm-7 pub-detail">
+         <h4 class="pub-title">Latest</h4>
+         <p class="pub-summary">
+         </p>
+         <p><b>ID</b> : News</p>
+         <p class="read-more">Read More</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
     </div>
   </div>
   <div class="row publication-grid">
@@ -84,7 +159,7 @@
     <h2 class="section-title text-center"> Our Partners</h2>
       <div class="home-partner owl-carousel owl-theme">
         <div class="item">
-          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg">
+          <img src="{{URL::to('/')}}/images/slider/hero-1.jpg" class="partnerimage">
         </div>
       </div>
     </div>
@@ -113,7 +188,6 @@
           </ul>
         </div>
       </div>
-      
     </div>
   </div>
 </div>

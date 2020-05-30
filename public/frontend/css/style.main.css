@@ -5,6 +5,10 @@
 .home-partner .item{
   height: 150px;
 }
+.partnerimage{
+  height: 250px !important;
+
+}
 .publicationblock img {
     width: 200%;
     box-shadow: none;
@@ -156,5 +160,6 @@
 }
 .hometext{
   font-weight:bold;
+  margin: 5px 0 10px !important;
   /*color: #c8a05a !important;*/
 }
