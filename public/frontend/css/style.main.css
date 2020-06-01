@@ -237,13 +237,23 @@
 .textfooter{
   color: #355496 !important;
 }
-.scroll {
+.p-sticky{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.o-scroll {
   background-color:  #ededed;
-  width:240%;
-  max-width: 650px;
-  height: 150px;
+  /*width:240%;*/
+  /*max-width: 650px;*/
+  height: 450px;
   overflow: auto;
   overflow-x: hidden;
+}
+.o-scroll>li{
+  margin-bottom: 4px;
+  border-bottom: 1px solid #d2d2d2; 
+  border-spacing: 15px;
 }
 
 /* advertising css */
@@ -303,6 +313,7 @@
     display: inline-block;
     right: 0px;
 }
+<<<<<<< HEAD
 /*btncssviewandorder*/
 .btnview{
   background: #c8a05a;
@@ -322,3 +333,5 @@ a:hover {
 
 
 
+=======
+>>>>>>> origin/master
