@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/style.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/style.main.css">
+  <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/scroll.main.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/auto_img_resizer.css">
   <link rel="stylesheet" href="{{URL::to('/')}}/frontend/css/lightbox.min.css">
 </head>

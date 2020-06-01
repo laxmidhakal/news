@@ -11,17 +11,17 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-8">
       <h2 class="section-title">Currrent Publication</h2>
       <div class="row publicationblock-grid">
         <div class="col-md-4">
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication1.jpg" alt="..."  class="publicationimage img-responsive">
             <div class="row">
-              <div class="col-sm-6 pr-0">
+              <div class="col-sm-6 pr-md-0">
                 <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
               </div>
-              <div class="col-sm-6 pl-0">
+              <div class="col-sm-6 pl-md-0">
                 <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
               </div>
             </div>
@@ -31,10 +31,10 @@
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication2.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
-                <div class="col-sm-6 pr-0">
+                <div class="col-sm-6 pr-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
                 </div>
-                <div class="col-sm-6 pl-0">
+                <div class="col-sm-6 pl-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
                 </div>
               </div>
@@ -44,10 +44,10 @@
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication3.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
-                <div class="col-sm-6 pr-0">
+                <div class="col-sm-6 pr-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
                 </div>
-                <div class="col-sm-6 pl-0">
+                <div class="col-sm-6 pl-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
                 </div>
               </div>
@@ -142,14 +142,18 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="row">
         <div class="col-md-12">
           <h4 class="section-title"> &nbsp;</h4>
           <div class="left-side-box mt-md-5">
-            <div class="margintop text-center pb-4">
-              <h3 class="title-ads text-secondary">Advertisment</h3>
-              <img src="{{URL::to('/')}}/images/partner.jpg" border="0" class="img-responsive ">
+            <div class="">
+              <h3 class="title-ads text-secondary text-center">Advertisment</h3>
+              <a href="">
+                <img src="{{URL::to('/')}}/images/partner.jpg" border="0" class="img-responsive mb-4">
+              </a><a href="">
+                <img src="{{URL::to('/')}}/images/partner.jpg" border="0" class="img-responsive mb-4">
+              </a>
             </div>
           </div>
         </div>
@@ -161,7 +165,7 @@
             <div class="panel-body newsletter-sectionback">
               <div class="col-sm-12 col-lg-12">
                 <div class="newsletter-section">
-                  <div class="newsletter-title my-md-3"><strong>NEWSLETTER</strong> - Subscribe here</div>
+                  <div class="newsletter-title my-md-3 h5"><strong>NEWSLETTER</strong> - Subscribe here</div>
                   <form id="newsletter-form">
                     <input type="email" name="mail-nl" class="mail-nl" placeholder="Email">
                     <div class="buton-field">
@@ -173,26 +177,84 @@
             </div>
           </div>
         </div>
+        
         <div class="col-md-12">
-          <h2 class="section-title pt-4">Important links</h2>
-          <div class="irambuye-news">
-            <div class="row">
-              <div class="col  col-md-12 pr-0">
-                <div class="flashnews2">
-                  <div>
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="img-responsive" alt=".">
-                  </div>
-                  <div class="f-title2 pl-0">
-                    <a href="news/article/20-arrested-in-hotel-sauna " class="f-color">20 arrested in hotel Sauna</a>
-                  </div>
+          <h2 class="section-title">Important links</h2>
+            <ul class="media-list o-scroll pb-4">
+              <li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
                 </div>
-              </div>
-              <div class="col col-md-6 ">
-                <p class="scroll  text-justify">Discussions with Premier Ngirente revolvedaround assessing achievements from Rwanda-Qatar relations, needed efforts for improvement and different issues concerning Africa.Following discussions,Rwanda’s Minister of Foreign Affairs and International Cooperation,Dr Richard Sezibera highlighted that both country’s relations are on a good note.“Cooperation between Rwanda and Qatar is on good progress, Africa, Qatar cooperation is vibrant too. The visit was meant to pave way for strengthening existing relationships,” he said.Dr Sezibera explained that they held talks concerning investment in agriculture, transport, aviation, irrigation and mining yesterday.
-                </p>
-              </div>
-            </div>
-          </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li><li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li><li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li><li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li><li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li><li class="media my-0">
+                <div class="media-left">
+                  <a href="">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <!-- <h4 class="media-heading">Media heading</h4> -->
+                  <h4 class="media-heading">
+                    20 arrested in hotel Sauna
+                  </h4>             
+                </div>
+              </li>
+            </ul>
         </div>
       </div>
       </div>
