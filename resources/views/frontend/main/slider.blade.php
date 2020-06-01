@@ -172,13 +172,13 @@
           </div>
         </div>
         <div class="col-md-12">
-          <h2 class="section-title pt-4">Important links </h2>
+          <h2 class="section-title pt-4">Important links</h2>
           <div class="irambuye-news">
             <div class="row">
               <div class="col  col-md-12 pr-0">
                 <div class="flashnews2">
-                  <div class="flashphoto">
-                    <img src="{{URL::to('/')}}/images/news3.jpg" class="img-responsive" alt=".">
+                  <div>
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="img-responsive" alt=".">
                   </div>
                   <div class="f-title2 pl-0">
                     <a href="news/article/20-arrested-in-hotel-sauna " class="f-color">20 arrested in hotel Sauna</a>
