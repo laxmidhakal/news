@@ -1449,3 +1449,7 @@
 .text-white{
   color: white;
 }
+.mt-8,
+.my-8 {
+  margin-top: 32rem !important;
+}

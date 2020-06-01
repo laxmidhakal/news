@@ -235,7 +235,7 @@
   text-align: center;
 }
 .textfooter{
-  color: white;
+  color: #355496 !important;
 }
 .scroll {
   background-color:  #ededed;
@@ -303,6 +303,19 @@
     display: inline-block;
     right: 0px;
 }
+/*btncssviewandorder*/
+.btnview{
+  background: #c8a05a;
+  color: white;
+}
+a:hover {
+  color: #355496;
+}
+.texthomeslider{
+  color: #1f1a54;
+  font-weight:bold;
+}
+
 
 
 

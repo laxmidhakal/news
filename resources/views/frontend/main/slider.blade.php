@@ -5,8 +5,8 @@
     <div class="item">
       <img src="{{URL::to('/')}}/images/slider/slider2.jpg">
       <div class="slider-content">
-        <h2></h2>
-        <p></p>
+        <h2 class="text-left mt-8 pl-5 texthomeslider">Aggrement </h2>
+        <p class="text-left pl-5 texthomeslider">Rotary Club Kigali Doyen donates Rwf13 million to Coronavirus fight</p>
       </div>
     </div>
   </div>
@@ -19,10 +19,10 @@
             <img src="{{URL::to('/')}}/images/publication/publication1.jpg" alt="..."  class="publicationimage img-responsive">
             <div class="row">
               <div class="col-sm-6 pr-0">
-                <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
+                <button type="button" class="btn b-radius-0 btn-block btnview ">View</button>
               </div>
               <div class="col-sm-6 pl-0">
-                <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
               </div>
             </div>
           </div>
@@ -32,10 +32,10 @@
             <img src="{{URL::to('/')}}/images/publication/publication2.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
                 <div class="col-sm-6 pr-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
+                  <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
                 <div class="col-sm-6 pl-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
                 </div>
               </div>
           </div>
@@ -45,10 +45,10 @@
             <img src="{{URL::to('/')}}/images/publication/publication3.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
                 <div class="col-sm-6 pr-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
+                  <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
                 <div class="col-sm-6 pl-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
                 </div>
               </div>
           </div>
