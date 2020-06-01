@@ -186,8 +186,8 @@
                 </div>
               </div>
               <div class="col col-md-6 ">
-                <div class="scroll">Discussions with Premier Ngirente revolved around assessing achievements from Rwanda-Qatar relations, needed efforts for    improvement and different issues concerning Africa.Following discussions, Rwanda’s Minister of Foreign Affairs and International Cooperation, Dr Richard Sezibera highlighted that both country’s relations are on a good note.“Cooperation between Rwanda and Qatar is on good progress, Africa, Qatar cooperation is vibrant too. The visit was meant to pave way for strengthening existing relationships,” he said.Dr Sezibera explained that they held talks concerning investment in agriculture, transport, aviation, irrigation and mining yesterday.
-                </div>
+                <p class="scroll  text-justify">Discussions with Premier Ngirente revolvedaround assessing achievements from Rwanda-Qatar relations, needed efforts for improvement and different issues concerning Africa.Following discussions,Rwanda’s Minister of Foreign Affairs and International Cooperation,Dr Richard Sezibera highlighted that both country’s relations are on a good note.“Cooperation between Rwanda and Qatar is on good progress, Africa, Qatar cooperation is vibrant too. The visit was meant to pave way for strengthening existing relationships,” he said.Dr Sezibera explained that they held talks concerning investment in agriculture, transport, aviation, irrigation and mining yesterday.
+                </p>
               </div>
             </div>
           </div>
