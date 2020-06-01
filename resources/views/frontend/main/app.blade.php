@@ -21,52 +21,48 @@
   <header>
     <div class="top-banner">
       <div class="container banner_content">
-        <div class="row">
-              
-          <div class="col-sm-3">
-            <div align="left">
-              <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive">
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="text-center">
-              <ul class="list-inline headerblock">
-                  <li class="list-inline-item text-light main-font-12 hometext">
-                      <i class="fa fa-phone mr-1"></i> 
-                      +977-124466
-                  </li>
-                  <li class="list-inline-item text-light main-font-12 hometext">
-                      <i class="fa fa-envelope mr-1"></i> 
-                      kinyamateka@gmail.com
-                  </li>
-                  <li class="list-inline-item my-auto">
-                      <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
-                          <i class="fa fa-facebook main-spin"></i>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
-                          <i class="fa fa-twitter main-spin" ></i>
-                      </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
-                          <i class="fa fa-linkedin main-spin"></i>
-                      </a>
-                  </li>
-              </ul>
-              <p class="text-center hometext">Branding items of Kinyamateka</p>
-              <p class="text-center hometext">Branding items of Catholic Church</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div align="right">
-              <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive">
-            </div>
-          </div>
+        <div class="text-center">
+          <ul class="list-inline headerblock">
+              <li class="list-inline-item text-light main-font-12 hometext">
+                  <i class="fa fa-phone mr-1"></i> 
+                  +977-124466
+              </li>
+              <li class="list-inline-item text-light main-font-12 hometext">
+                  <i class="fa fa-envelope mr-1"></i> 
+                  kinyamateka@gmail.com
+              </li>
+              <li class="list-inline-item my-auto">
+                  <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
+                      <i class="fa fa-facebook main-spin"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="$social->twitter}}" target="_blank" title="Share on Twitter" class="link twitter text-center">
+                      <i class="fa fa-twitter main-spin" ></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="$social->linkedin}}" target="_blank" class="link linkedin text-center">
+                      <i class="fa fa-linkedin main-spin"></i>
+                  </a>
+              </li>
+          </ul>
         </div>
-        <!-- <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive"> -->
-        <h1>Kinyamateka </h1>
+        <div class="text-right">
+          <a href="{{URL::to('/')}}"><button class="btn btn-default color-blue"><i class="fa fa-home" aria-hidden="true"></i></button></a>
+          @if (Auth::guest())
+          <button class="btn btn-default color-blue" data-toggle="modal" data-target="#login"><i class="glyphicon glyphicon-user"></i> Login</button>
+          @else
+          <li class="dropdown">
+              <button href="#" class="btn btn-default color-blue dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+              </ul>
+          </li>
+          @endif
+        </div>
+        <img src="{{URL::to('/')}}/images/logo.png" class="img-responsive">
+        <h1 class="text-white">kinyamateka</h1>
       </div>
       <!-- Modal -->
       <div class="container">

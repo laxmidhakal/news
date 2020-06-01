@@ -1,3 +1,4 @@
+/*home partner */
 .home-partner{
   /*margin-top: -79px;*/
   margin-bottom: 30px;
@@ -7,16 +8,10 @@
 }
 .partnerimage{
   height: 250px !important;
-
 }
 .publicationblock img {
     width: 200%;
     box-shadow: none;
-}
-.navblock{
-    display: inline!important;
-    padding-bottom: 0;
-    overflow: visible!important;
 }
 .headerblock{
     display: inline!important;
@@ -116,32 +111,13 @@
   background-color: #ffffff;
   border-radius: 0 5px 5px 0;
 }
-.btncssofview{
-  padding: 6px 20px 6px 20px !important;
-  border-radius:0 !important;
-  border: none ;
-  height: 35px !important;
-  width: 180px !important;
-  background-color: #c8a05a !important;
 
-}
-.viewdiv{
-  padding-left: 0px;
-}
-.btncssorder{
-  padding: 6px 20px 6px 20px !important;
-  border-radius:0 ;
-  height: 35px !important;
-  width: 175px !important;
-}
-.orderdiv{
-  padding-left:  3px !important;
-}
 .publicationimage{
   height: 207px !important;
   object-fit: cover;
   object-position: center center;
 }
+/*navigattionbar*/
 .largenavbar {
   background-color: #1f1a54;
   border-radius: 0 0 5px 5px;
@@ -159,9 +135,173 @@
 .largenavbar .row > div .form-control, .largenavbar .row > div .btn {
   margin-bottom: 10px;
 }
+/*slidertxt*/
 .hometext{
   font-weight:bold;
   margin: 5px 0 10px !important;
   /*color: #c8a05a !important;*/
 }
+/*  footer css*/
+ .footer-top-layout {
+  background: #1c1c1c none repeat scroll 0 0;
+  color: #ffffff;
+  padding: 40px 0;
+}
+.OurBlog {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer-top-layout h4 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 21px;
+}
+.OurBlog > p {
+  color: #888888;
+}
+.post-blog-date::after {
+  background: #ffffff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 50px;
+}
+.post-blog-date {
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.footer-top-layout [class*="col-sm-"]:first-child {
+  padding: 0;
+}
+.footer-top-layout [class*="col-sm-"] {
+  border-right: 2px solid #333333;
+  padding: 0 0 0 28px;
+  
+}
+.footer-top-layout {
+  color: #ffffff;
+}
+.footer-col-item {
+  min-height: 140px;
+}
+
+.signUpNewsletter {
+  position: relative;
+}
+.signUpNewsletter .gt-email {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #666666;
+  border-radius: 0;
+  color: #ffffff;
+  height: 52px;
+}
+.signUpNewsletter .btn-go {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: #666666;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  width: 52px;
+}
+.footer-bottom-layout {
+  background: #222222 none repeat scroll 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.socialMedia-footer {
+  margin-bottom: 20px;
+}
+.socialMedia-footer > a {
+  display: inline-block;
+  margin: 0 8px;
+}
+.footer-bottom-layout {
+  text-align: center;
+}
+.textfooter{
+  color: white;
+}
+.scroll {
+  background-color:  #ededed;
+  width:240%;
+  max-width: 650px;
+  height: 150px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* advertising css */
+.left-side-box {
+    border: 1px solid #ededed;
+    padding: 2px;
+    -webkit-box-shadow: 0 0 10px 0 #000000;
+    box-shadow: 0 0 10px 0 #000000;
+}
+.title-ads {
+    color: #c4c4c4;
+    font-family: ralewaymedium, ApexSansBoldST, 'trebuchet ms';
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+}
+/*importantlinkcss*/
+.flashnews2 {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e8eaea;
+}
+.f-title2{
+    background: #c8a05a;
+}
+.f-color{
+    color: white !important;
+}
+/*subscribercss*/
+.newsletter-sectionback {
+    background: #111111;
+    color: #fff;
+    font-family: ralewayregular, 'trebuchet ms';
+    font-size: 12px;
+}
+.mail-nl {
+    background: #363636;
+    color: #f6f6f6;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+.buton-field {
+    display: inline-block;
+    width: 100%;
+}
+.mail-send {
+    background: #111111;
+    color: #f6f6f6;
+    font-family: ralewaymedium, 'trebuchet ms';
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #f6f6f6;
+    margin-top: 10px;
+    display: inline-block;
+    right: 0px;
+}
+
+
+
+
+
 
