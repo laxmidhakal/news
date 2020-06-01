@@ -18,16 +18,11 @@
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication1.jpg" alt="..."  class="publicationimage img-responsive">
             <div class="row">
-              <div class="col-sm-6 pr-0">
+              <div class="col-sm-6 pr-md-0">
                 <button type="button" class="btn b-radius-0 btn-block btnview ">View</button>
               </div>
-              <div class="col-sm-6 pl-0">
-                <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
-              <div class="col-sm-6 pr-md-0">
-                <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
-              </div>
               <div class="col-sm-6 pl-md-0">
-                <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
               </div>
             </div>
           </div>
@@ -36,17 +31,11 @@
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication2.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
-<<<<<<< HEAD
-                <div class="col-sm-6 pr-0">
+                <div class="col-sm-6 pr-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
-                <div class="col-sm-6 pl-0">
-                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
-                <div class="col-sm-6 pr-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
-                </div>
                 <div class="col-sm-6 pl-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
                 </div>
               </div>
           </div>
@@ -55,16 +44,12 @@
           <div class="thumbnail ">
             <img src="{{URL::to('/')}}/images/publication/publication3.jpg" alt="..." class="publicationimage img-responsive">
               <div class="row">
-                <div class="col-sm-6 pr-0">
+                <div class="col-sm-6 pr-md-0">
                   <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
-                <div class="col-sm-6 pl-0">
-                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
-                <div class="col-sm-6 pr-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-info">View</button>
-                </div>
                 <div class="col-sm-6 pl-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block btn-warning">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
+
                 </div>
               </div>
           </div>
