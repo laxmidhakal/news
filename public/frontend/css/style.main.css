@@ -183,6 +183,10 @@
   padding: 0 0 0 28px;
   
 }
+
+.footer-top-layout [class*="col-sm-"]:last-child {
+  border-right: 0px solid #333333;
+}
 .footer-top-layout {
   color: #ffffff;
 }
@@ -246,8 +250,8 @@
 .left-side-box {
     border: 1px solid #ededed;
     padding: 2px;
-    -webkit-box-shadow: 0 0 10px 0 #000000;
-    box-shadow: 0 0 10px 0 #000000;
+    -webkit-box-shadow: 0 0 5px 0px #9a9a9a;
+    box-shadow: 0 0 5px 0px #9a9a9a;
 }
 .title-ads {
     color: #c4c4c4;

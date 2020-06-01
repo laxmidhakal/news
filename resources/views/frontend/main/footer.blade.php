@@ -69,6 +69,6 @@
       <li><a href="{{URL::to('/')}}/contact">Contact Us</a></li>
     </ul> 
     </div>
-    <div class="copyright-tag"><p class="textfooter">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Developed by <a href="https://techware.com.np" target="_blank" class="text-decoration-none">Techware Pvt. Ltd.</a></p></div>
+    <div class="copyright-tag"><p class="textfooter">Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> All rights reserved Developed by <a href="https://techware.com.np" target="_blank" class="text-decoration-none">Techware Pvt. Ltd.</a></p></div>
   </div>
 </footer>

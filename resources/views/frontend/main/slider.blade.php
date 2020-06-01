@@ -145,8 +145,8 @@
     <div class="col-md-3">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="section-title"> Publicity/Advertising site</h2>
-          <div class="left-side-box">
+          <h4 class="section-title"> &nbsp;</h4>
+          <div class="left-side-box mt-md-5">
             <div class="margintop text-center pb-4">
               <h3 class="title-ads text-secondary">Advertisment</h3>
               <img src="{{URL::to('/')}}/images/partner.jpg" border="0" class="img-responsive ">
@@ -155,16 +155,18 @@
         </div>
         <div class="col-md-12">
           <div class="panel panel-default mt-5">
-            <div class="panel-heading">
+            <!-- <div class="panel-heading">
               <h2 class="section-title text-center">Subscribers</h2>
-            </div>
+            </div> -->
             <div class="panel-body newsletter-sectionback">
-              <div class="col col-lg-12">
-                <div class="newsletter-section mt-2">
-                  <div class="newsletter-title"><strong>NEWSLETTER</strong> - Subscribe here</div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="newsletter-section">
+                  <div class="newsletter-title my-md-3"><strong>NEWSLETTER</strong> - Subscribe here</div>
                   <form id="newsletter-form">
                     <input type="email" name="mail-nl" class="mail-nl" placeholder="Email">
-                    <div class="buton-field"><input type="submit" class="pull-right mail-send" value="SIGN UP"></div>
+                    <div class="buton-field">
+                      <input type="submit" class="pull-right mail-send" value="SIGN UP">
+                    </div>
                   </form>
                 </div>
               </div>
