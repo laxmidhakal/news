@@ -22,7 +22,7 @@
   <header>
     <div class="top-banner">
       <div class="container banner_content">
-        <div class="text-center">
+        <div align="left">
           <ul class="list-inline headerblock">
               <li class="list-inline-item text-light main-font-12 hometext">
                   <i class="fa fa-phone mr-1"></i> 

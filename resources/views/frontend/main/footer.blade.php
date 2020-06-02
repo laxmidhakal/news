@@ -9,7 +9,7 @@
         <div class=" col-lg-8 col-lg-offset-2">
           <div class="col-sm-4">
             <div class="footer-col-item">
-              <h4 class="textfooter">Important Links</h4>
+              <h4 class="text-white">Important Links</h4>
 
               <address>
                 <ul style="list-style-type:none;" class="pl-0">

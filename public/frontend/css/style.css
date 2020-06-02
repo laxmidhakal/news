@@ -181,7 +181,7 @@ nav.navbar .navbar-toggle .icon-bar {
   font-size: 0.9em;
   text-transform: uppercase;
   font-weight: 600;
-  padding: 10px 8px;
+  padding: 10px 40px;
   border-radius: 3px;
 }
 .navbar-nav>li>a:focus,
@@ -445,13 +445,15 @@ table a img {
 .home-slider .slider-content{
   width: 100%;
   position: absolute;
-  top: 50%;
-  text-align: center;
+  /*top: 50%;*/
+  bottom: 0;
+  text-align: left;
   color: white;
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
 }
 .home-slider .slider-content h2{
   font-size: 2.5em;
+  padding: 0 50px;
 }
 .home-slider .slider-content p{
   padding: 0 50px;

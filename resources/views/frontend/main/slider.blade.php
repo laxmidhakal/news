@@ -1,12 +1,19 @@
 @extends('frontend.main.app')
 @section('content')
+<style type="text/css">
+  .bg-slider {
+      background: #0000008c;
+  }
+</style>
 <div class="container">
   <div class="home-slider owl-carousel owl-theme">
     <div class="item">
       <img src="{{URL::to('/')}}/images/slider/slider2.jpg">
       <div class="slider-content">
-        <h2 class="text-left mt-8 pl-5 texthomeslider">Aggrement </h2>
-        <p class="text-left pl-5 texthomeslider">Rotary Club Kigali Doyen donates Rwf13 million to Coronavirus fight</p>
+        <div class="bg-slider py-3">
+          <h2 class="text-left">Aggrement </h2>
+          <p class="text-left">Rotary Club Kigali Doyen donates Rwf13 million to Coronavirus fight</p>
+        </div>
       </div>
     </div>
   </div>
@@ -131,17 +138,16 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="row publication-grid">
         <div class="col-md-12">
         <h2 class="section-title text-center"> Our Partners</h2>
-          <div class="home-partner owl-carousel owl-theme">
+          <div class="home-partner owl-carousel owl-theme mb-4">
             <div class="item">
-              <img src="{{URL::to('/')}}/images/partner2.jpg" class="partnerimage">
+              <img src="{{URL::to('/')}}/images/partner2.jpg" class="img-responsive">
             </div>
           </div>
         </div>
       </div>
+      
     </div>
     <div class="col-md-4">
       <div class="row">
@@ -197,7 +203,7 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/newslatest.jpg" class="media-object" style="width: 130px;" alt="...">
                   </a>
                 </div>
                 <div class="media-body">
@@ -209,7 +215,7 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/1news.jpg" class="media-object" style="width: 130px;" alt="...">
                   </a>
                 </div>
                 <div class="media-body">
@@ -221,7 +227,7 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/woman.jpg" class="media-object" style="width: 130px;" alt="...">
                   </a>
                 </div>
                 <div class="media-body">
@@ -233,7 +239,7 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/news4.jpg" class="media-object" style="width: 130px;" alt="...">
                   </a>
                 </div>
                 <div class="media-body">
@@ -245,7 +251,7 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/partner.jpg" class="media-object" style="width: 130px;" alt="...">
                   </a>
                 </div>
                 <div class="media-body">

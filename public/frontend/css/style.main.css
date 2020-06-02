@@ -4,11 +4,9 @@
   margin-bottom: 30px;
 }
 .home-partner .item{
-  height: 150px;
+  height: 250px;
 }
-.partnerimage{
-  height: 250px !important;
-}
+
 .publicationblock img {
     width: 200%;
     box-shadow: none;
@@ -313,7 +311,7 @@
     display: inline-block;
     right: 0px;
 }
-<<<<<<< HEAD
+
 /*btncssviewandorder*/
 .btnview{
   background: #c8a05a;
@@ -326,12 +324,3 @@ a:hover {
   color: #1f1a54;
   font-weight:bold;
 }
-
-
-
-
-
-
-
-=======
->>>>>>> origin/master
