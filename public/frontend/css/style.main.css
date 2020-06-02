@@ -3,8 +3,9 @@
   /*margin-top: -79px;*/
   margin-bottom: 30px;
 }
-.home-partner .item{
-  height: 200px;
+
+.itempartner{
+  height: 150px;
 
 }
 
@@ -345,6 +346,20 @@ a:hover {
 .publication-image-style{
   height: 199px !important;
   width: 100%;
+}
+.list-footer-link{
+  padding-left: 37px !important;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-footer-pargraph{
+  padding-left: 37px !important;
+  padding-right: 37px !important;
+}
+
+.prfooter,
+ {
+  padding-right: 1.5rem !important;
 }
 
 

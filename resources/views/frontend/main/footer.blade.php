@@ -4,19 +4,21 @@
       <div class="row">
         <div class="OurBlog">
           <h4>History</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iure blanditiis, rerum corrupti nam explicabo, et autem minima. Voluptates asperiores totam maiores saepe dolore. Inventore officiis labore natus magnam soluta.</p>
+          <p class="pr-8 pl-8 pb-8 text-center text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Quidem iure blanditiis, rerum corrupti nam explicabo, et autem minima.Voluptates asperiores totam maiores saepe dolore. Inventore officiis labore natus magnam soluta.
+          </p>
         </div>
-        <div class=" col-lg-8 col-lg-offset-2">
+        <div class=" col-lg-8  col-lg-offset-2">
           <div class="col-sm-4 col-md-4">
-            <div class="footer-col-item">
-              <h4 class="textservice">Services We Offer </h4>
+            <div class="footer-col-item col-md-12">
+              <h4 class="textservice  list-footer-link">Services We Offer </h4>
               <address>
-                <ul style="list-style-type:none;" class="pl-0">
+                <ul style="list-style-type:none;">
                   <li>- <a href="http://igihe.org">Advertisement</a><br></li>
                   <li>- <a href="http://igihe.org">Web Development</a><br></li>
                   <li>- <a href="http://igihe.org">Hosting</a><br></li>
                   <li>- <a href="http://igihe.org">Domain name registration</a><br></li>
-                  <li>- <a href="http://igihe.org">IGIHE Editorial line</a><br></li>
+                  <!-- <li>- <a href="http://igihe.org">IGIHE Editorial line</a><br></li> -->
                   <!-- <li>- <a href="http://igihe.org">Confidentiality</a><br></li> -->
                 </ul>
               <!-- <ul class="list-inline bottom">
@@ -29,7 +31,7 @@
                     kinyamateka@gmail.com
                 </li>
               </ul> -->
-              <ul class="list-inline bottom">
+              <ul class="list-inline bottom pl-sm-0  list-footer-link">
                 <li class="list-inline-item">
                   <a href="$social->facebook}}" target="_blank" title="Share on Facebook" class=" link facebook text-center">
                     <i class="fa fa-facebook main-spin"></i>

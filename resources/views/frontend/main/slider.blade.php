@@ -135,11 +135,14 @@
         </div>
         <div class="col-md-12  publicationpartner">
         <h2 class="section-title text-center"> Our Partners</h2>
-          <div class="home-partner owl-carousel owl-theme mb-4">
-            <div class="item">
-              <img src="{{URL::to('/')}}/images/partner2.jpg" class="img-responsive mb-4" >
+        <div class="home-partner owl-carousel owl-theme">
+          <div class="item">
+            <img src="{{URL::to('/')}}/images/partner2.jpg" class="img-responsive mb-4">
+            <div class="slider-content">
+              
             </div>
           </div>
+        </div>
         </div>
       </div>
       

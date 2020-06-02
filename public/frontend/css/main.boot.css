@@ -1453,3 +1453,15 @@
 .my-8 {
   margin-top: 32rem !important;
 }
+.pb-8,
+.py-8 {
+  padding-bottom: 3.5rem !important;
+}
+.pr-8,
+.px-8 {
+  padding-right: 3.5rem !important;
+}
+.pl-8,
+.px-8 {
+  padding-left: 3.5rem !important;
+}
