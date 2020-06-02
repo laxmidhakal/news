@@ -9,12 +9,15 @@
         <div class=" col-lg-8 col-lg-offset-2">
           <div class="col-sm-4">
             <div class="footer-col-item">
-              <h4 class="text-white">Important Links</h4>
+              <h4 class="textservice">Services We Offer </h4>
               <address>
                 <ul style="list-style-type:none;" class="pl-0">
-                  <li><a href="">Our Services</a></li>
-                  <li><a href="">Contact</a></li>
-                  <li><a href="">FAQ</a></li>
+                  <li>- <a href="http://igihe.org">advertisement</a><br></li>
+                  <li>- <a href="http://igihe.org">Web Development</a><br></li>
+                  <li>- <a href="http://igihe.org">Hosting</a><br></li>
+                  <li>- <a href="http://igihe.org">Domain name registration</a><br></li>
+                  <li>- <a href="http://igihe.org">IGIHE Editorial line</a><br></li>
+                  <!-- <li>- <a href="http://igihe.org">Confidentiality</a><br></li> -->
                 </ul>
               <!-- <ul class="list-inline bottom">
                 <li class="list-inline-item text-light main-font-12 textfooter">

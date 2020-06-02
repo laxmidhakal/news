@@ -24,7 +24,7 @@
                 <button type="button" class="btn b-radius-0 btn-block btnview ">View</button>
               </div>
               <div class="col-sm-6 pl-md-0">
-                <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
+                <button type="button" class="btn b-radius-0 btn-block textorder">Order</button>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
                   <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
                 <div class="col-sm-6 pl-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block textorder">Order</button>
                 </div>
               </div>
           </div>
@@ -50,7 +50,7 @@
                   <button type="button" class="btn b-radius-0 btn-block btnview">View</button>
                 </div>
                 <div class="col-sm-6 pl-md-0">
-                  <button type="button" class="btn b-radius-0 btn-block color-blue">Order</button>
+                  <button type="button" class="btn b-radius-0 btn-block textorder">Order</button>
 
                 </div>
               </div>

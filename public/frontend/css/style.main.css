@@ -330,5 +330,14 @@ a:hover {
 .bg-slider {
     background: #0000008c;
 }
+.textorder{
+  color: #949494;
+  font-weight:bold;
+}
+.textservice{
+  color: #white;
+  font-weight:bold;
+}
+
 
 
