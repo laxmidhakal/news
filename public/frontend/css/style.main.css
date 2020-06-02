@@ -4,7 +4,8 @@
   margin-bottom: 30px;
 }
 .home-partner .item{
-  height: 250px;
+  height: 200px;
+
 }
 
 .publicationblock img {
@@ -324,3 +325,10 @@ a:hover {
   color: #1f1a54;
   font-weight:bold;
 }
+
+/*sliderbackground*/
+.bg-slider {
+    background: #0000008c;
+}
+
+
