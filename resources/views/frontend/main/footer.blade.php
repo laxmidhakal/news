@@ -7,12 +7,12 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem iure blanditiis, rerum corrupti nam explicabo, et autem minima. Voluptates asperiores totam maiores saepe dolore. Inventore officiis labore natus magnam soluta.</p>
         </div>
         <div class=" col-lg-8 col-lg-offset-2">
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-md-4">
             <div class="footer-col-item">
               <h4 class="textservice">Services We Offer </h4>
               <address>
                 <ul style="list-style-type:none;" class="pl-0">
-                  <li>- <a href="http://igihe.org">advertisement</a><br></li>
+                  <li>- <a href="http://igihe.org">Advertisement</a><br></li>
                   <li>- <a href="http://igihe.org">Web Development</a><br></li>
                   <li>- <a href="http://igihe.org">Hosting</a><br></li>
                   <li>- <a href="http://igihe.org">Domain name registration</a><br></li>
