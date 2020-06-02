@@ -338,6 +338,13 @@ a:hover {
   color: #white;
   font-weight:bold;
 }
+.important-image{
+  width: 130px;
 
+}
+.publication-image-style{
+  height: 199px !important;
+  width: 100%;
+}
 
 

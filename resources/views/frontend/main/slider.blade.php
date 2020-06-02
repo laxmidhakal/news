@@ -62,7 +62,7 @@
         <div class="col-md-12">
           <a href="" class="publication">
             <div class="col-xs-5 col-sm-5 pub-image">
-             <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/newslatest.jpg" style="height: 199px; width: 100%;">
+             <img class="img-responsive img-thumbnail publication-image-style" src="{{URL::to('/')}}/images/newslatest.jpg">
             </div>
             <div class="col-xs-7 col-sm-7 pub-detail">
              <h4 class="pub-title">New CIMERWA boss speaks out on rebranding the firm’s products</h4>
@@ -77,7 +77,7 @@
         <div class="col-md-12">
           <a href="" class="publication">
             <div class="col-xs-5 col-sm-5 pub-image">
-             <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/1news.jpg" style="height: 199px; width: 100%;">
+             <img class="img-responsive img-thumbnail publication-image-style" src="{{URL::to('/')}}/images/1news.jpg">
             </div>
             <div class="col-xs-7 col-sm-7 pub-detail">
              <h4 class="pub-title">Inside Kigali International Airport expansion works</h4>
@@ -91,7 +91,7 @@
         <div class="col-md-12">
           <a href="" class="publication">
             <div class="col-xs-5 col-sm-5 pub-image">
-             <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/woman.jpg" style="height: 199px; width: 100%;">
+             <img class="img-responsive img-thumbnail publication-image-style" src="{{URL::to('/')}}/images/woman.jpg">
             </div>
             <div class="col-xs-7 col-sm-7 pub-detail">
              <h4 class="pub-title">Peacekeeping: Redefining the role of Rwandan women</h4>
@@ -106,7 +106,7 @@
         <div class="col-md-12">
           <a href="" class="publication">
             <div class="col-xs-5 col-sm-5 pub-image">
-             <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/news4.jpg" style="height: 199px; width: 100%;">
+             <img class="img-responsive img-thumbnail publication-image-style" src="{{URL::to('/')}}/images/news4.jpg">
             </div>
             <div class="col-xs-7 col-sm-7 pub-detail">
              <h4 class="pub-title">Rwanda: Dozens killed as heavy rains trigger floods, landslides</h4>
@@ -120,7 +120,7 @@
         <div class="col-md-12">
           <a href="" class="publication">
             <div class="col-xs-5 col-sm-5 pub-image">
-             <img class="img-responsive img-thumbnail" src="{{URL::to('/')}}/images/news3.jpg" style="height: 199px; width: 100%;">
+             <img class="img-responsive img-thumbnail publication-image-style" src="{{URL::to('/')}}/images/news3.jpg">
             </div>
             <div class="col-xs-7 col-sm-7 pub-detail">
              <h4 class="pub-title">
@@ -186,7 +186,7 @@
               <li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/slider/slider2.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
@@ -198,55 +198,55 @@
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/newslatest.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/newslatest.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
                   <!-- <h4 class="media-heading">Media heading</h4> -->
                   <h4 class="media-heading">
-                    20 arrested in hotel Sauna
+                    Ambassador Jacqueline Mukangira presents credentials
                   </h4>             
                 </div>
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/1news.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/1news.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
                   <!-- <h4 class="media-heading">Media heading</h4> -->
                   <h4 class="media-heading">
-                    20 arrested in hotel Sauna
+                    Rwamagana church building up for auction
                   </h4>             
                 </div>
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/woman.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/woman.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
                   <!-- <h4 class="media-heading">Media heading</h4> -->
                   <h4 class="media-heading">
-                    20 arrested in hotel Sauna
+                    Digital currency transfers through mobile telephone 
                   </h4>             
                 </div>
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/news4.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/news4.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
                   <!-- <h4 class="media-heading">Media heading</h4> -->
                   <h4 class="media-heading">
-                    20 arrested in hotel Sauna
+                    Govt. funding of RwandAir increases to Rwf145.1bn
                   </h4>             
                 </div>
               </li><li class="media my-0">
                 <div class="media-left">
                   <a href="">
-                    <img src="{{URL::to('/')}}/images/partner.jpg" class="media-object" style="width: 130px;" alt="...">
+                    <img src="{{URL::to('/')}}/images/partner.jpg" class="media-object important-image"  alt="...">
                   </a>
                 </div>
                 <div class="media-body">
